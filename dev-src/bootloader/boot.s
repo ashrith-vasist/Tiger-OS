@@ -16,7 +16,15 @@ print_message:
 finish:
     hlt
 
-message: .asciz "Tiger OS"
+message: .asciz """
+
+  _____ ___ ___ ___ ___    ___  ___ 
+ |_   _|_ _/ __| __| _ \  / _ \/ __|
+   | |  | | (_ | _||   / | (_) \__ \
+   |_| |___\___|___|_|_\  \___/|___/
+                                    
+
+"""
 
 .fill 510-(.-tiger),1,0
 .word 0xaa55

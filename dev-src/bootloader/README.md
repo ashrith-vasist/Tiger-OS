@@ -40,3 +40,5 @@
 
         If the Windows setup is followed, and on WSL2 or Windows Terminal, use 
         `qemu-system-x86_64.exe -drive file=boot.bin,index=0,media=disk,format=raw`
+
+- Generate your own patterns from here http://www.patorjk.com/software/taag/
