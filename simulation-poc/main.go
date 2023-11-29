@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "tiger/cmd"
 
 func main() {
-	fmt.Println("Tiger OS!")
+	cmd.Execute()
 }
